@@ -30,7 +30,6 @@ class Vector():
     def __repr__(self):
         return (f"x1 = {self.x1};y1 = {self.y1};x2 = {self.x2};y2 = {self.y2};angle = {self.angle};length = {self.length};lock = {self.lock}")
     
-
     #Return vector scalar
     def __mul__(self, other):
         return (self.x2 - self.x1)*(other.x2 - other.x1)+(self.y2 - self.y1)*(other.y2 - other.y1)
@@ -88,7 +87,6 @@ class Vector():
         self.angle = self.a
         self.x2, self.y2 = self._rotate2D(self.length, self.angle)
 
-    
     #Proportional navigation
     def pn(self, vector, maneuverability):
         dx = self.x1 - vector.x1
