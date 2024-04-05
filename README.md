@@ -5,6 +5,7 @@
 
 ### **[CONTENT]**
 We have a rocket ( **$`\textcolor{blue}{\text{blue circle}}`$** ) and a target ( **$`\textcolor{red}{\text{red circle}}`$** ), the lines in this circles show the vector of moving.
+All params you can change inside `main()` function.
 
 ---
 
